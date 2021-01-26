@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="Titulo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextContenido"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Contenido"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Edad"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnCrearDatos"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/design_default_color_primary"
+        android:gravity="center"
+        android:text="Crear Datos" />
+
+    <TextView
+        android:id="@+id/textViewDatos"
+        android:layout_width="match_parent"
+        android:layout_height="269dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Valores obtenidos de firestore"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
+</LinearLayout>
